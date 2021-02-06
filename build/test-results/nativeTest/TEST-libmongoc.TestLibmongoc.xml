@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestLibmongoc" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-06T18:12:56" hostname="chuwo" time="0.011">
+  <properties/>
+  <testcase name="testConnection[native]" classname="libmongoc.TestLibmongoc" time="0.011"/>
+  <system-out><![CDATA[{"ok":1.0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

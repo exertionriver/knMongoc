@@ -1,0 +1,9 @@
+headers = mongoc/mongoc.h
+package = libmongoc
+compilerOpts = -I/usr/local/include/libbson-1.0 -I/usr/local/include/libmongoc-1.0
+linkerOpts = -L -ldl "/usr/local/lib/libbson-1.0.so" "/usr/local/lib/libmongoc-1.0.so"
+---
+static inline bson_t* get_bson_from_json(char *json) {
+    bson_error_t error;
+    return bson_new_from_json ((const uint8_t *)json, -1, &error) ;
+}

@@ -1,0 +1,11 @@
+Demonstration of libmongoc (MongoDB C driver) CRUD tests using Kotlin/Native cInterop
+
+Built using IntelliJ Community Edition 2020.3.2 / Kotlin Plugin 1.4.30 on Ubuntu 20.04
+
+And using mongo-c-driver-1.17.3 (Apache 2.0 License)
+
+Repo found at: https://github.com/mongodb/mongo-c-driver
+
+Install steps found at: http://mongoc.org/libmongoc/current/installing.html
+
+Hope this may help you in your development work. - IanP
